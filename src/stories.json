@@ -1,0 +1,212 @@
+{
+  "001":{
+    "id": 1,
+    "headline": "Vestibulum at eros lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "source": "The West Australian",
+    "byline": "Michelanjelo Michael",
+    "publicationDate": "2020-09-01T01:00:00.000Z",
+    "heroImage": {
+      "captionText": "Cras mattis consectetur purus sit amet fermentum.",
+      "url": "https://images.thewest.com.au/publication/B88945448Z/1536132433649_GKR1Q2DJF.2-1.jpg"
+    },
+    "blocks": [
+      {
+        "kind": "text",
+        "text": "Aenean lacinia bibendum nulla sed consectetur. Sed posuere consectetur est at lobortis. Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Vestibulum id ligula porta felis euismod semper.",
+        "intentions": [
+          {
+            "kind": "emphasized",
+            "index": 0,
+            "length": 11
+          },
+          {
+            "kind": "important",
+            "index": 28,
+            "length": 27
+          }
+        ]
+      },
+      {
+        "kind": "text",
+        "text": "Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper. Maecenas faucibus mollis interdum. Sed posuere consectetur est at lobortis. Cras justo odio, dapibus ac facilisis in, egestas eget quam.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Maecenas sed diam eget risus varius blandit sit amet non magna. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "Vestibulum id ligula porta felis euismod semper. Nullam id dolor id nibh ultricies vehicula ut id elit. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Nullam quis risus eget urna mollis ornare vel eu leo. Curabitur blandit tempus porttitor.",
+        "intentions": []
+      },
+      {
+        "kind": "pull-quote",
+        "text": "Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec sed odio dui.",
+        "attribution": "Michelanjelo Michael"
+      },
+      {
+        "kind": "text",
+        "text": "Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "intentions": []
+      }
+    ]
+  },
+  "002":{
+    "id": 2,
+    "headline": "Revised target for Australian COVID jabs revealed",
+    "source": "AAP",
+    "byline": "Colin Brinsden and Tracey Ferrier",
+    "publicationDate": "2021-04-11T01:33:00.000Z",
+    "heroImage": {
+      "captionText": "Cras mattis consectetur purus sit amet fermentum.",
+      "url": "https://images.thewest.com.au/publication/C-2563724/661ce9037503fbf6a9060aadc15782d4d9b37024-16x9-x0y192w2048h1152.jpg"
+    },
+    "blocks":[
+      {
+        "kind": "text",
+        "text": "The Morrison government is aiming to have all Australians inoculated with at least one dose of COVID-19 vaccine by the end of the year.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "But Trade Minister Dan Tehan says the world is still under the cloud of a pandemic and things can quickly change.",
+        "intentions": []
+      },
+      {
+        "kind": "image",
+        "captionText": "Trade Minister Dan Tehan is hoping to soon begin discussions for a trade deal with India.",
+        "imageAttribution": "AAP",
+        "url": "https://images.thewest.com.au/publication/C-2563724/212a43fd594e7d2df7bcb889ece786479db7a4a9.jpg"
+      },
+      {
+        "kind": "text",
+        "text": "Last week the government’s vaccine program suffered a major set-back after health authorities recommended the AstraZeneca vaccine should only be given to people above 50 due to the risk of blood clotting.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "It was the vaccine the government was relying heavily on, but it has since secured an additional 20 million Pfizer vaccine doses that will be shipped from abroad later in the year.",
+        "intentions": []
+      }
+
+    ]
+  },
+  "003": {
+    "id": 3,
+    "headline": "Tropical cyclone Seroja intensifies to category 3, as DFES extends red alert warning to Northampton",
+    "source": "The West Australian",
+    "byline": "Daryna Zadvirna",
+    "publicationDate": "2021-04-11T10:49:00.000Z",
+    "heroImage": {
+      "captionText": "Kalbarri resident and single mother-of-two Rebecca Bond had transformed her bathroom into an emergency shelter.",
+      "url": "https://images.thewest.com.au/publication/B881843579Z/1618122980723_GE037OFV8.1-2.png"
+    },
+    "blocks":[
+      {
+        "kind": "text",
+        "text": "Tropical Cyclone Seroja has been upgraded to category three, while the red alert area has been extended further south of the Midwest Gascoyne to include Northampton, Port Gregory, and Horrocks.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "The cyclone is expected to result in a significant storm surge along parts of the Shark Bay coast and Denham, with wind gusts to expected to reach 165 kilometres per hour.",
+        "intentions": []
+      },
+      {
+        "kind": "image",
+        "captionText": "A Red Alert is in place for people in or near Carnarvon to Kalbarri, not including Carnarvon or Kalbarri townsites due to Tropical Cyclone Seroja.",
+        "imageAttribution": "DFES",
+        "url": "https://images.thewest.com.au/publication/B881843579Z/1618122980723_GVT37OFPK.1-0.JPG"
+      },
+      {
+        "kind": "text",
+        "text": "There is a risk that properties in the low lying areas of Denham could become inundated as the cyclone approaches and crosses the coast.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "This included Knight Terrace, Barnard Street, Mainland Street, Fry Court, Stella Rowley Drive, Paget Street, Brockman Street, Denham Road and Durlacher Street.",
+        "intentions": []
+      }
+    ]
+  },
+  "004":{
+    "id": 4,
+    "headline": "Cyclone Seroja rips apart Carnarvon’s historic One Mile Jetty",
+    "source": "The West Australian",
+    "byline": "Brianna Dugan",
+    "publicationDate": "2021-04-11T15:15:00.000Z",
+    "heroImage": {
+      "captionText": "Left, the former jetty and right, the jetty was destroyed by the cyclone this afternoon..",
+      "url": "https://images.thewest.com.au/publication/B881843579Z/1618122980723_GE037OFV8.1-2.png"
+    },
+    "blocks":[
+      {
+        "kind": "text",
+        "text": "Carnarvon’s historic One Mile Jetty has been ripped apart by tropical cyclone Seroja.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "The jetty was destroyed just after lunch time todaywith strong winds and high tides tearing the bridge apart at the middle.",
+        "intentions": []
+      },
+      {
+        "kind": "image",
+        "captionText": "Tropical cyclone Seroja blowing trees in Coral Bay.",
+        "imageAttribution": "",
+        "url": "https://images.thewest.com.au/publication/B881843644Z/1618125377621_G1E37OHE8.1-0.jpg"
+      },
+      {
+        "kind": "text",
+        "text": "Residents have taken to social media to share their heartbreak over the loss in their close-knit community.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "One resident took to Facebook expressing his sadness over the memorable jetty.",
+        "intentions": []
+      }
+    ]
+  },
+  "005":{
+    "id": 5,
+    "headline": "Hawk Patton quits AFL, apologises to women",
+    "source": "AAP",
+    "byline": "Steve Larkin ",
+    "publicationDate": "2021-04-16T13:23:00.000Z",
+    "heroImage": {
+      "captionText": "Hawthorn's Jonathon Patton has retired from the AFL and apologised for his behaviour towards women.",
+      "url": "https://images.thewest.com.au/publication/C-2609520/db8f2252b28ea955c09855fa1ccdf6193f54438a-16x9-x0y0w1280h720.jpg"
+    },
+    "blocks":[
+      {
+        "kind": "text",
+        "text": "Hawthorn forward Jonathon Patton has apologised for his inappropriate behaviour towards women while quitting the AFL.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "Patton was stood down by the Hawks in January when accused by at least four women of sending sexually explicit photos and videos of himself via social media.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "The No.1 pick at the 2011 draft on Friday announced his retirement from the AFL, effective immediately.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "“I also want to take this opportunity to apologise for my inappropriate behaviour towards women,” Patton said in statement released by Hawthorn.",
+        "intentions": []
+      }
+    ]
+  }
+}
