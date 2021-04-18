@@ -1,10 +1,57 @@
+* {
+    padding:0;
+    margin: 0;
+}
+
 .container{
-    width: 60%;
+    width: 95%;
     margin: auto;
 }
 
 .masthead{
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
+}
+
+.leadStory {
+    margin-bottom: 1.5em;
+    /* color: black; */
+}
+.leadStory h2 {
+    font-size: 2em;
+}
+
+.leadStory a, .leadStory a:visited, .otherStory a, .otherStory a:visited  {
+    text-decoration: none;
+    color: black;
+}
+
+.leadStory a:hover, .otherStory a:hover {
+    color: blue;
+}
+
+.otherStory {
+    margin-bottom: 1.5em;
+    /* color: black; */
+    overflow: auto;
+}
+/* .otherStory a, .otherStory a:visited {
+    text-decoration: none;
+} */
+
+.otherStory h2 {
+    font-size: 1em;
+    float: right;
+    width: 60%
+}
+.otherStory p {
+    float: right;
+    width: 60%;
+    /* display: none; */
+}
+
+.otherStory img {
+    float: left;
+    width: 39%;
 }
 
 .plus {
@@ -38,3 +85,54 @@
 .quoteText {
     font-size: 2em;
 }
+
+/*View for tablet*/
+@media (min-width: 479px) {
+    .homeCollection {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+    .leadStory {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .leadStory h2 {
+        float: left;
+        width: 38%;
+        font-size: 2.25em;
+    }
+
+    .leadStory p {
+        float: left;
+        width: 38%;
+    }
+    
+    .leadStory img {
+        float: right;
+        width: 60%;
+    }
+
+    .otherStory h2 {
+        font-size: 1.25em;
+        float: none;
+        width: 100%;
+    }
+
+    .otherStory p {
+        float: none;
+        width: 100%;
+    }
+    .otherStory img {
+        float: none;
+        width: 100%;
+    }
+}
+
+/*View for desktop*/
+@media (min-width: 1000px) {
+    .container{
+        width: 60%;
+    }
+}
+

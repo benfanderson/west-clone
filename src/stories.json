@@ -1,7 +1,7 @@
 {
   "001":{
     "id": 1,
-    "headline": "Vestibulum at eros lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "headline": "Vestibulum at eros lorem ipsum dolor sit amett",
     "source": "The West Australian",
     "byline": "Michelanjelo Michael",
     "publicationDate": "2020-09-01T01:00:00.000Z",
@@ -100,7 +100,7 @@
   },
   "003": {
     "id": 3,
-    "headline": "Tropical cyclone Seroja intensifies to category 3, as DFES extends red alert warning to Northampton",
+    "headline": "Tropical cyclone Seroja intensifies to category 3",
     "source": "The West Australian",
     "byline": "Daryna Zadvirna",
     "publicationDate": "2021-04-11T10:49:00.000Z",
@@ -139,13 +139,13 @@
   },
   "004":{
     "id": 4,
-    "headline": "Cyclone Seroja rips apart Carnarvon’s historic One Mile Jetty",
+    "headline": "Cyclone Seroja rips apart Carnarvon’s jetty",
     "source": "The West Australian",
     "byline": "Brianna Dugan",
     "publicationDate": "2021-04-11T15:15:00.000Z",
     "heroImage": {
       "captionText": "Left, the former jetty and right, the jetty was destroyed by the cyclone this afternoon..",
-      "url": "https://images.thewest.com.au/publication/B881843579Z/1618122980723_GE037OFV8.1-2.png"
+      "url": "https://images.thewest.com.au/publication/B881843644Z/1618144788800_GG137OUDE.1-2.jpg"
     },
     "blocks":[
       {
