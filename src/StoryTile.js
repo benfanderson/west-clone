@@ -22,7 +22,7 @@ function StoryTile(props) {
           src={story.heroImage.url}
           alt={story.heroImage.captionText}
         />
-        <h2>{story.headline}</h2>
+        <h2 className="story-tile__headline">{story.headline}</h2>
         <p>{story.blocks[0].text}</p>
       </Link>
     </div>

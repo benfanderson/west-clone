@@ -25,7 +25,7 @@
     color: black;
 }
 
-.lead-story a:hover, .other-story a:hover {
+.lead-story:hover .story-tile__headline, .other-story:hover .story-tile__headline {
     color: blue;
 }
 
@@ -93,12 +93,12 @@
 @media (min-width: 479px) {
     #home-collection {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
     
     .lead-story {
         grid-column-start: 1;
-        grid-column-end: 3;
+        grid-column-end: 4;
     }
     .lead-story h2 {
         float: left;

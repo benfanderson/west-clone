@@ -16,6 +16,7 @@ function HomeCollection(props) {
       <StoryTile story={stories[2]} key={stories[2].id} size="other-story" />
       <StoryTile story={stories[3]} key={stories[3].id} size="other-story" />
       <StoryTile story={stories[4]} key={stories[4].id} size="other-story" />
+      <StoryTile story={stories[5]} key={stories[5].id} size="other-story" />
     </div>
 
   // stories.map(

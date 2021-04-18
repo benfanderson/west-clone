@@ -208,5 +208,38 @@
         "intentions": []
       }
     ]
+  },
+  "006":{
+    "id": 6,
+    "headline": "Teen boy dies at Esperance motocross event",
+    "source": "The West  Australain",
+    "byline": "Briana Dugan",
+    "publicationDate": "2021-04-18T14:32:00.000Z",
+    "heroImage": {
+      "captionText": "St John Ambulance responded to the incident but the 14-year-old could tragically not be revived. Credit: Barry Baker/WA News.",
+      "url": "https://images.thewest.com.au/publication/B881849659Z/1618727731618_GH2382AUG.1-2.jpg"
+    },
+    "blocks":[
+      {
+        "kind": "text",
+        "text": "A 14-year-old boy has tragically died after crashing his bike at a motocross event near Esperance this morning.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "The teenager was competing at the Esperance Motorcycle Club motocross event when he crashed on the track just after 9.30am.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "St John Ambulance responded to the incident in Myrup, but tragically the boy could not be revived and died at the scene.",
+        "intentions": []
+      },
+      {
+        "kind": "text",
+        "text": "Esperance police are investigating the circumstances surrounding the fatal crash, and a report will be prepared for the Coroner.",
+        "intentions": []
+      }
+    ]
   }
 }
