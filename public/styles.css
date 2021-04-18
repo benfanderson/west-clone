@@ -3,71 +3,74 @@
     margin: 0;
 }
 
-.container{
+
+#container{
     width: 95%;
     margin: auto;
 }
 
-.masthead{
+#masthead{
     margin-bottom: 1.5em;
 }
 
-.leadStory {
+.lead-story {
     margin-bottom: 1.5em;
-    /* color: black; */
 }
-.leadStory h2 {
+.lead-story h2 {
     font-size: 2em;
 }
 
-.leadStory a, .leadStory a:visited, .otherStory a, .otherStory a:visited  {
+.lead-story a, .lead-story a:visited, .other-story a, .other-story a:visited  {
     text-decoration: none;
     color: black;
 }
 
-.leadStory a:hover, .otherStory a:hover {
+.lead-story a:hover, .other-story a:hover {
     color: blue;
 }
 
-.otherStory {
+.lead-story img  {
+    width: 100%;
+}
+
+.other-story {
     margin-bottom: 1.5em;
-    /* color: black; */
     overflow: auto;
 }
 /* .otherStory a, .otherStory a:visited {
     text-decoration: none;
 } */
 
-.otherStory h2 {
+.other-story h2 {
     font-size: 1em;
     float: right;
     width: 60%
 }
-.otherStory p {
+.other-story p {
     float: right;
     width: 60%;
     /* display: none; */
 }
 
-.otherStory img {
+.other-story img  {
     float: left;
     width: 39%;
 }
 
-.plus {
+#plus {
     width: 1vw;
 
 }
 
-.heroImg{
+#hero-img{
     width:100%
 }
 
-.ImgBlock {
+.inline-img-block {
     width:100%;
 }
 
-.Img {
+.inline-img {
     width:100%;
 }
 
@@ -75,55 +78,55 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.pullQuote {
+.pull-quote {
     width:75%;
     margin: auto;
     padding-left: 1vw;
     border-left: 1vw solid blue;
 }
 
-.quoteText {
+.pull-quote__text {
     font-size: 2em;
 }
 
 /*View for tablet*/
 @media (min-width: 479px) {
-    .homeCollection {
+    #home-collection {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
     
-    .leadStory {
+    .lead-story {
         grid-column-start: 1;
         grid-column-end: 3;
     }
-    .leadStory h2 {
+    .lead-story h2 {
         float: left;
         width: 38%;
         font-size: 2.25em;
     }
 
-    .leadStory p {
+    .lead-story p {
         float: left;
         width: 38%;
     }
     
-    .leadStory img {
+    .lead-story img {
         float: right;
         width: 60%;
     }
 
-    .otherStory h2 {
+    .other-story h2 {
         font-size: 1.25em;
         float: none;
         width: 100%;
     }
 
-    .otherStory p {
+    .other-story p {
         float: none;
         width: 100%;
     }
-    .otherStory img {
+    .other-story img {
         float: none;
         width: 100%;
     }
@@ -131,7 +134,7 @@
 
 /*View for desktop*/
 @media (min-width: 1000px) {
-    .container{
+    #container{
         width: 60%;
     }
 }

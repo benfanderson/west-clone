@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Proptypes from 'prop-types';
-import styles from '../public/styles.css';
+import '../public/styles.css';
 
 function StoryTile(props) {
   const {
@@ -9,17 +9,16 @@ function StoryTile(props) {
   } = props;
 
   let tileClass;
-  if (size === 'leadStory') {
-    tileClass = styles.leadStory;
+  if (size === 'lead-story') {
+    tileClass = 'lead-story';
   } else {
-    tileClass = styles.otherStory;
+    tileClass = 'other-story';
   }
 
   return (
     <div className={tileClass}>
       <Link to={`/${story.id}`} key={story.id}>
         <img
-          className={styles.heroImg}
           src={story.heroImage.url}
           alt={story.heroImage.captionText}
         />

@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import React from 'react';
 import dayjs from 'dayjs';
 import Proptypes from 'prop-types';
-import styles from '../public/styles.css';
+import '../public/styles.css';
 import camera from '../public/images/camera.svg';
 import plus from '../public/images/plus.svg';
 import Masthead from './Masthead';
@@ -31,7 +31,7 @@ function Story(props) {
   } = story;
 
   return (
-    <div className={styles.container}>
+    <div id="container">
       <Masthead />
       <article>
         <header>
@@ -46,14 +46,14 @@ function Story(props) {
           <p>
             {dayjs(publicationDate).format('ddd, D MMMM YYYY H:MMa')}
             {' '}
-            <img src={plus} className={styles.plus} alt="Plus symbol" />
+            <img src={plus} id="plus" alt="Plus symbol" />
           </p>
 
           <hr />
         </header>
         <div>
-          <img className={styles.heroImg} src={heroImage.url} alt={heroImage.captionText} />
-          <figcaption className={styles.caption}>
+          <img id="hero-img" src={heroImage.url} alt={heroImage.captionText} />
+          <figcaption className="caption">
             <img src={camera} alt="plus symbol" />
             {' '}
             {heroImage.captionText}
@@ -67,9 +67,9 @@ function Story(props) {
                   element = <p key={index}>{block.text}</p>;
                 } else if (block.kind === 'image') {
                   element = (
-                    <div key={index} className={styles.ImgBlock}>
-                      <img className={styles.Img} src={block.url} alt={block.captionText} />
-                      <figcaption className={styles.caption}>
+                    <div key={index} className="inline-img-block">
+                      <img className="inline-img" src={block.url} alt={block.captionText} />
+                      <figcaption className="caption">
                         <img src={camera} alt="camera icon" />
                         {' '}
                         {block.captionText}
@@ -78,8 +78,8 @@ function Story(props) {
                   );
                 } else if (block.kind === 'pull-quote') {
                   element = (
-                    <blockquote key={index} className={styles.pullQuote}>
-                      <p className={styles.quoteText}>{block.text}</p>
+                    <blockquote key={index} className="pull-quote">
+                      <p className="pull-quote__text">{block.text}</p>
                       <p>{block.attribution}</p>
                     </blockquote>
                   );

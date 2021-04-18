@@ -1,6 +1,8 @@
 import React from 'react';
 import Proptypes from 'prop-types';
-import styles from '../public/styles.css';
+import '../public/styles.css';
+// eslint-disable-next-line no-unused-vars
+// import styles from '../public/styles.css';
 import Masthead from './Masthead';
 import HomeCollection from './HomeCollection';
 
@@ -10,7 +12,7 @@ function FrontPage(props) {
   } = props;
 
   return (
-    <div className={styles.container}>
+    <div id="container">
       <Masthead />
       <HomeCollection stories={stories} />
     </div>
