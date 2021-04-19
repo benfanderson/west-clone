@@ -48,17 +48,16 @@ function Story(props) {
             {' '}
             <img src={plus} id="plus" alt="Plus symbol" />
           </p>
-
-          <hr />
         </header>
-        <div>
-          <img id="hero-img" src={heroImage.url} alt={heroImage.captionText} />
+        <div id="hero-block">
+          <img id="hero-block__img" src={heroImage.url} alt={heroImage.captionText} />
           <figcaption className="caption">
             <img src={camera} alt="plus symbol" />
             {' '}
             {heroImage.captionText}
           </figcaption>
         </div>
+        <hr />
         {
             blocks.map(
               (block, index) => {
@@ -67,8 +66,8 @@ function Story(props) {
                   element = <p key={index}>{block.text}</p>;
                 } else if (block.kind === 'image') {
                   element = (
-                    <div key={index} className="inline-img-block">
-                      <img className="inline-img" src={block.url} alt={block.captionText} />
+                    <div key={index} className="inline-block">
+                      <img className="inline-block_img" src={block.url} alt={block.captionText} />
                       <figcaption className="caption">
                         <img src={camera} alt="camera icon" />
                         {' '}
