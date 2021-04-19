@@ -1,0 +1,29 @@
+$west-blue: #053de1;
+$element-margin-bottom: 1.5em;
+
+* {
+    padding:0;
+    margin: 0;
+}
+
+
+#container{
+    width: 95%;
+    margin: auto;
+}
+
+#masthead{
+    margin-bottom: $element-margin-bottom;
+}
+
+#home-collection {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/*View for desktop*/
+@media (min-width: 1000px) {
+    #container{
+        width: 60%;
+    }
+}

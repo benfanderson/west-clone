@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Proptypes from 'prop-types';
-import '../public/styles.scss';
+import '../public/styles/story-tile.scss';
 
 function StoryTile(props) {
   const {

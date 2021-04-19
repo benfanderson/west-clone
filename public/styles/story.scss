@@ -1,0 +1,36 @@
+@use 'base';
+
+$west-blue: #053de1;
+$element-margin-bottom: 1.5em;
+
+#plus {
+    width: 1vw;
+
+}
+
+#hero-img{
+    width:100%
+}
+
+.inline-img-block {
+    width:100%;
+}
+
+.inline-img {
+    width:100%;
+}
+
+.caption {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pull-quote {
+    width:75%;
+    margin: auto;
+    padding-left: 1vw;
+    border-left: 1vw solid $west-blue;
+}
+
+.pull-quote__text {
+    font-size: 2em;
+}

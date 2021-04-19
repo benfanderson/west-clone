@@ -1,6 +1,6 @@
 import React from 'react';
 import Proptypes from 'prop-types';
-import '../public/styles.scss';
+import '../public/styles/styles.scss';
 import StoryTile from './StoryTile';
 
 function HomeCollection(props) {

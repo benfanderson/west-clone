@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import React from 'react';
 import dayjs from 'dayjs';
 import Proptypes from 'prop-types';
-import '../public/styles.scss';
+import '../public/styles/story.scss';
 import camera from '../public/images/camera.svg';
 import plus from '../public/images/plus.svg';
 import Masthead from './Masthead';
