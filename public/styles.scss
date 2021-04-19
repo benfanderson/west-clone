@@ -18,46 +18,53 @@ $element-margin-bottom: 1.5em;
 
 .lead-story {
     margin-bottom: $element-margin-bottom;
-}
-.lead-story h2 {
-    font-size: 2em;
-}
 
-.lead-story a, .lead-story a:visited, .other-story a, .other-story a:visited  {
-    text-decoration: none;
+    a, a:visited{
+        text-decoration: none;
     color: black;
-}
+    }
 
-.lead-story:hover .story-tile__headline, .other-story:hover .story-tile__headline {
-    color: $west-blue;
-}
+    :hover .story-tile__headline{
+        color: $west-blue;
+    }
 
-.lead-story img  {
-    width: 100%;
+    h2 {
+        font-size: 2em;
+    }
+    img  {
+        width: 100%;
+    }
 }
 
 .other-story {
     margin-bottom: $element-margin-bottom;
     overflow: auto;
-}
-/* .otherStory a, .otherStory a:visited {
-    text-decoration: none;
-} */
 
-.other-story h2 {
-    font-size: 1em;
-    float: right;
-    width: 60%
-}
-.other-story p {
-    float: right;
-    width: 60%;
-    /* display: none; */
-}
+    a, a:visited{
+        text-decoration: none;
+    color: black;
+    }
 
-.other-story img  {
-    float: left;
-    width: 39%;
+    :hover .story-tile__headline{
+        color: $west-blue;
+    }
+
+    h2 {
+        font-size: 1em;
+        float: right;
+        width: 60%
+    }
+
+    p {
+        float: right;
+        width: 60%;
+        /* display: none; */
+    }
+
+    img  {
+        float: left;
+        width: 39%;
+    }
 }
 
 #plus {
@@ -102,36 +109,41 @@ $element-margin-bottom: 1.5em;
     .lead-story {
         grid-column-start: 1;
         grid-column-end: 4;
-    }
-    .lead-story h2 {
-        float: left;
-        width: 38%;
-        font-size: 2.25em;
+
+        h2 {
+            float: left;
+            width: 38%;
+            font-size: 2.25em;
+        }
+
+        p {
+            float: left;
+            width: 38%;
+        }
+
+        img {
+            float: right;
+            width: 60%;
+        }
     }
 
-    .lead-story p {
-        float: left;
-        width: 38%;
-    }
-    
-    .lead-story img {
-        float: right;
-        width: 60%;
-    }
+    .other-story {
 
-    .other-story h2 {
-        font-size: 1.25em;
-        float: none;
-        width: 100%;
-    }
+        h2 {
+            font-size: 1.25em;
+            float: none;
+            width: 100%;
+        }
 
-    .other-story p {
-        float: none;
-        width: 100%;
-    }
-    .other-story img {
-        float: none;
-        width: 100%;
+        p {
+            float: none;
+            width: 100%;
+        }
+
+        img {
+            float: none;
+            width: 100%;
+        }    
     }
 }
 
@@ -141,4 +153,3 @@ $element-margin-bottom: 1.5em;
         width: 60%;
     }
 }
-
