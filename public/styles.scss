@@ -1,3 +1,6 @@
+$west-blue: #053de1;
+$element-margin-bottom: 1.5em;
+
 * {
     padding:0;
     margin: 0;
@@ -10,11 +13,11 @@
 }
 
 #masthead{
-    margin-bottom: 1.5em;
+    margin-bottom: $element-margin-bottom;
 }
 
 .lead-story {
-    margin-bottom: 1.5em;
+    margin-bottom: $element-margin-bottom;
 }
 .lead-story h2 {
     font-size: 2em;
@@ -26,7 +29,7 @@
 }
 
 .lead-story:hover .story-tile__headline, .other-story:hover .story-tile__headline {
-    color: blue;
+    color: $west-blue;
 }
 
 .lead-story img  {
@@ -34,7 +37,7 @@
 }
 
 .other-story {
-    margin-bottom: 1.5em;
+    margin-bottom: $element-margin-bottom;
     overflow: auto;
 }
 /* .otherStory a, .otherStory a:visited {
@@ -82,7 +85,7 @@
     width:75%;
     margin: auto;
     padding-left: 1vw;
-    border-left: 1vw solid blue;
+    border-left: 1vw solid $west-blue;
 }
 
 .pull-quote__text {

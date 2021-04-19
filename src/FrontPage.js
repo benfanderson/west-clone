@@ -1,8 +1,7 @@
 import React from 'react';
 import Proptypes from 'prop-types';
-import '../public/styles.css';
+import '../public/styles.scss';
 // eslint-disable-next-line no-unused-vars
-// import styles from '../public/styles.css';
 import Masthead from './Masthead';
 import HomeCollection from './HomeCollection';
 

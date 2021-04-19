@@ -36,12 +36,18 @@ module.exports = {
         ],
       },
       {
-        test: /\.css$/i,
+        test: /\.s[ac]ss$/i,
         exclude: /node_modules/,
         use: [
           'style-loader',
           {
             loader: 'css-loader',
+          },
+          {
+            loader: 'sass-loader',
+            options: {
+              sourceMap: process.env.NODE_ENV !== 'production',
+            },
           },
         ],
       },

@@ -1,6 +1,6 @@
 import React from 'react';
 import masthead from '../public/images/masthead.svg';
-import '../public/styles.css';
+import '../public/styles.scss';
 
 function Masthead() {
   return (
