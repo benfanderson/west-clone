@@ -1,6 +1,6 @@
 import React from 'react';
 import Proptypes from 'prop-types';
-import '../public/styles/styles.scss';
+import '../public/styles/_base.scss';
 // eslint-disable-next-line no-unused-vars
 import Masthead from './Masthead';
 import HomeCollection from './HomeCollection';

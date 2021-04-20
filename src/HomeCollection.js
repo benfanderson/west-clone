@@ -1,6 +1,6 @@
 import React from 'react';
 import Proptypes from 'prop-types';
-import '../public/styles/styles.scss';
+import '../public/styles/_base.scss';
 import StoryTile from './StoryTile';
 
 function HomeCollection(props) {
@@ -17,12 +17,6 @@ function HomeCollection(props) {
       <StoryTile story={stories[4]} key={stories[4].id} size="other-story" />
       <StoryTile story={stories[5]} key={stories[5].id} size="other-story" />
     </div>
-
-  // stories.map(
-  //   (story) => (
-  //     <StoryTile story={story} key={story.id} />
-  //   ),
-  // )
 
   );
 }

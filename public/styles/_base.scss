@@ -15,10 +15,16 @@ $element-margin-bottom: 1.5em;
     margin-bottom: $element-margin-bottom;
 }
 
-#home-collection {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+/*View for tablets*/
+@media (min-width: 479px) {
+    #home-collection {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 1rem;
+    }
 }
+
+
 
 /*View for desktop*/
 @media (min-width: 1000px) {
